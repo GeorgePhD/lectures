@@ -1,0 +1,36 @@
+
+ctrl + shift + P = buscador de configuraciones
+ctrl + , = configuraciones
+ctrl + p = buscar archivos
+ctrl + b = abrir y cerrar la barra de archivos
+ctrl + d = selecciona multiples cursores iguales
+ctrl + l = selecciona linea
+ctrl + c = copia lo seleccionado
+ctrl + x = corta lo seleccionado
+ctrl + v = pega lo seleccionado
+ctrl + z = deshace cambios
+COPIA LINEA Y PEGA AL MISMO TIEMPO = shift + alt + flecha abajo, no se necesita seleccionar.
+Alt + flechas direccionales = mueven la o las lineas hacia donde indicas.
+
+SHORTCUTS EN HTML
+h1 + tab = crea un <h1></h1>
+podemos hacer lo mismo con :
+1. h2,h3,h4,h5,h6.
+
+p + tab = crea un <p></p>
+ul + tab = crea un lista desordenada / unordered list
+ol + tab = crea un lista ordenada / unordered list
+
+CREAR MULTIPLES COSAS
+li* + el numero que quieres crear. Esto funciona con diversas etiquetas.
+
+GIT COMMANDS
+
+
+
+
+
+
+
+
+

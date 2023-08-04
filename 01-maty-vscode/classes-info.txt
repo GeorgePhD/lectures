@@ -1,0 +1,35 @@
+August 1st
+
+practice and review class
+
+lo primero es crear una sub-carpeta con el nombre "pages" en la carpeta principal, dar el nombre al archivo html: repaso-1.html y al archivo css: repaso-1.css
+
+1. make the HTML file with the shortcut
+2. create the title dar nombres de clases a cada uno
+3. create the subtitle dar nombres de clases a cada uno
+4. make 3 paragraphs with 3 subtitles  dar nombres de clases a cada uno
+5. make un pie de página dar nombres de clases a cada uno
+6. dar estilos a todo: recordar linkear el archivo css al html.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

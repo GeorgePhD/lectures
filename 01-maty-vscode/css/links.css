@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+/* a {
+    border: 1px solid lightcoral;
+} */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    /*outline: 2px solid black; */
+}
+.link {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    width: 250px;
+    margin-left:10px;
+    
+    
+
+}
+.my-web {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(0, 0, 0);
+    color: rgb(184, 185, 236);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+    
+}
+.my-web:hover {
+    background:rgb(232, 233, 245) ;
+    color: rgb(0, 0, 0);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.nba {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(7, 15, 247);
+    color: rgb(254, 254, 255);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.nba:hover {
+    background:rgb(254, 254, 255);
+    color: rgb(7, 15, 247);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.celtics {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(4, 181, 4);
+    color: rgb(254, 254, 255);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.celtics:hover {
+    background:rgb(254, 254, 255);
+    color: rgb(4, 181, 4);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.bulls {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(235, 13, 13);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.bulls:hover {
+    background:rgb(0, 0, 0);
+    color: rgb(235, 13, 13);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.nets {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(159, 174, 244);
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.nets:hover {
+    background:rgb(255, 254, 254);
+    color: rgb(159, 174, 244);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.heat {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(218, 44, 44);
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.heat:hover {
+    background:rgb(255, 254, 254);
+    color: rgb(218, 44, 44);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.knicks {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(58, 112, 220);
+    color: rgb(255, 137, 2);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.knicks:hover {
+    background:rgb(255, 137, 2);
+    color: rgb(18, 74, 187);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.raptors {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(239, 13, 190);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.raptors:hover {
+    background:rgb(0, 0, 0);
+    color: rgb(239, 13, 190);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.bucks {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    color: rgb(40, 115, 17);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.bucks:hover {
+    background:rgb(40, 115, 17);
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+.warriors {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    background: rgb(68, 45, 240);
+    color: rgb(239, 233, 50);
+    text-decoration: none;
+    box-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+.warriors:hover {
+    background:rgb(239, 233, 50);
+    color: rgb(68, 45, 240);
+    transition: .3s ease-in;
+    box-shadow: 2px 3px 10px rgb(7, 7, 31);
+}
+
+
