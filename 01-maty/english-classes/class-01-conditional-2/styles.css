@@ -1,0 +1,36 @@
+
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.7rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    border: 1px solid green;
+    background-color: aliceblue;
+    border-radius: 0.3rem;
+}
+li {
+    font-size: 2rem;
+}
