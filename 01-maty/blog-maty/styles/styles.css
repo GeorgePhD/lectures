@@ -3,6 +3,7 @@
     padding-top: 0;
     font-size: 10px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .li__item .active {
     color: black;
@@ -26,6 +27,7 @@
     text-decoration: none;
     font-size: 2.5rem;
     color: rgb(134, 133, 133);
+    font-weight: 700;
     
 }
 .li__item a:hover {
@@ -64,6 +66,34 @@
 }
 /* about page ends here */
 
+/* sports page starts here */
+.sports__container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    margin: 0 auto;
+    gap: 1rem;
+}
+.sports__container img {
+    max-width: 100%;
+}
+.sport__title {
+    font-size: 2.5rem;
+    opacity: 0.3;
+}
+.sports__content {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.sport__container {
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(208, 203, 193);
+    box-shadow: 3px 3px 10px black;
+}
+/* sports page ends here */
+
 /* gallery starts here */
 .gallery__container {
     max-width: 180rem;
@@ -74,7 +104,6 @@
 }
 .img img {
     width: 100%;
-    
 }
 /* gallery ends here */
 
