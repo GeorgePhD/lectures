@@ -6,15 +6,21 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     background-color: #e9ecef;
     color: #6c757d;
 }
+.sticky__header {
+    position: sticky;
+    top: 0;
+}
 /* navbar starts here */
 .navbar {
     background-color: #212529;
     padding: 2rem;
+    
 }
 .navbar__list {
     list-style: none;
@@ -51,9 +57,46 @@ body {
 .paragraph {
     font-size: 2.5rem;
 }
+.home__p {
+    font-size: 10rem;
+    font-family: 'Poppins';
+    padding-bottom: 30rem;
+}
 .index__img {
     width: 20rem;
     margin-left: 21%;
 }
+.home__section {
+    background-color: rgb(195, 195, 195);
+    color: rgb(31, 31, 31);
+    padding-top: 7rem;
+}
 /* home ends here */
 
+/* about section starts here */
+.about__section {
+    background-color: black;
+    color: white;
+    padding-top: 7rem;
+}
+/* about section ends here */
+/* portfolio section starts here */
+.portfolio__section {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding-top: 7rem;
+}
+/* portfolio section ends here */
+.resume__section {
+    background-color: rgb(118, 118, 118);
+    color: white;
+    padding-top: 7rem;
+}
+/* resume section starts here */
+/* contact section starts here */
+.contact__section {
+    background-color: rgb(158, 158, 158);
+    color: white;
+    padding-top: 7rem;
+}
+/* contact section ends here */

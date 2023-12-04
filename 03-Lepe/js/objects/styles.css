@@ -1,0 +1,11 @@
+.user {
+    width: 15rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 3px 7px black;
+
+}
