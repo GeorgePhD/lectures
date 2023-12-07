@@ -81,10 +81,23 @@ body {
 }
 /* about section ends here */
 /* portfolio section starts here */
+.grid__portfolio {
+    /* width: 60%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+    padding: 2rem;
+}
 .portfolio__section {
     background-color: rgb(60, 60, 60);
     color: white;
-    padding-top: 7rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 10px black;
+
 }
 /* portfolio section ends here */
 .resume__section {
