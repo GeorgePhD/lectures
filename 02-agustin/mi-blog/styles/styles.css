@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    transition: all 800ms ease-in-out;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.name {
+    font-size: 2.2rem;
+}
+h1, h2, h3, p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+h1 {
+    font-size: 3.5rem;
+    text-align: start;
+    font-family: 'Poppins';
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: start;
+}
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+p {
+    font-size: 1.7rem;
+    text-align: start;
+    font-family: 'Poppins';
+}
+nav {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    background-color: black;
+    padding: 2rem;
+    transition: all 300ms ease-in-out;
+}
+nav:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+li {
+    list-style: none;
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover {
+    color: black;
+    /* font-size: 2.5rem; */
+}
+/* home section starts here */
+.index-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin-top: 30rem;
+}
+.index-img-container {
+    flex-basis: 40%;
+    padding: 5rem;
+}
+.index-img-container img {
+    margin-left: 8rem;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 10px grey;
+}
+.side-content {
+    flex-basis: 60%;
+    padding: 3rem;
+}
+.content-content {
+    font-size: 6rem;
+}
+.icon {
+    font-size: 2.5rem;
+}
+/* home section ends here */
+
+
+/* services section starts here */
+
+.services-img {
+    width: 30rem;
+    margin-left: 21%;
+    box-shadow: 2px 2px 5px black;
+}
+.services-h3 {
+    text-align: start;
+}
+
+/* services section ends here */
+
+
+
+
+
+/* about section starts here */
+.about__p {
+    width: 60%;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    margin-top: 3rem;
+    color: black;
+}
+/* about section ends here */
+
+
+
+/* gallery starts here */
+.images__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.image__box {
+    border: 1px solid grey;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 2px grey;
+}
+.image__box img {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+}
+/* gallery ends here */
+
+footer {
+    width: 100%;
+   /*  position: inherit; */
+    bottom: 0;
+    margin: 0 auto;
+}
+
+/* contact information starts here */
+.info-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    padding: 3rem;
+    margin: 0 auto;
+    margin-top: 20rem;
+}
+.logos-container {
+    width: 300px;
+    margin: 0 auto;
+}
+.logos-container img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.logos-container-p {
+    font-size: 2.5rem;
+    text-align: start;
+    width: 100%;
+    margin-left: -2rem;
+}
+.fa-brands {
+    width: 5rem;
+    font-size: 10rem;
+    color: rgb(89, 88, 88);
+}
+.fa-regular {
+    font-size: 10rem;
+    color: rgb(89, 88, 88);
+}
+
+
+/* contact information ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

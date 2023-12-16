@@ -1,0 +1,28 @@
+
+
+comandos para git y trabajar con la página github.
+
+git add = este comando sirve para agregar un archivo a git.
+git commit -m "mensaje"  = este comando sirve para comitear/guardar los cambios que se han hecho en el archivo.
+git push = este comando sirve para pushear/subir la información y los cambios que hicimos con el git commit.
+
+braches / ramas en git = las branches o ramas en git las creamos para trabajar en ellas y no modificar el archivo orignal de nuestro proyecto.
+las branches son una copia exacta del proyecto y las creamos de la siguiente manera.
+
+git branch = checkea las branches o ramas que existen.
+git checkout +branchName = nos mueve a la rama que especificamos.
+example : 
+1. git branch +branchName, luego de este comando : git checkout  +branchName, esto te mueve a la nueva rama.
+
+2. git checkout -b +branchName : esto crea la nueva rama y te mueve hacia ella.
+
+
+
+
+
+
+
+
+
+
+

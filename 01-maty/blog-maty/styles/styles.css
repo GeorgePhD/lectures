@@ -3,6 +3,10 @@
     padding-top: 0;
     font-size: 10px;
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    font-family: 'Poppins', sans-serif;
+>>>>>>> 529b3c2b362855e0a156c75c60d6bdaedc8140aa
 }
 .li__item .active {
     color: black;
@@ -26,6 +30,10 @@
     text-decoration: none;
     font-size: 2.5rem;
     color: rgb(134, 133, 133);
+<<<<<<< HEAD
+=======
+    font-weight: 700;
+>>>>>>> 529b3c2b362855e0a156c75c60d6bdaedc8140aa
     
 }
 .li__item a:hover {
@@ -44,6 +52,94 @@
     border: 1px solid rgb(189, 189, 189);
 }
 
+<<<<<<< HEAD
+=======
+/* about page starts here */
+.about__title {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+.grey {
+    color: grey;
+    font-size: 4rem;
+}
+.small__text {
+    font-size: 3.5rem;
+}
+.about__content__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.9rem;
+    background-color: beige;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+.about__img__container {
+    flex-basis: 40%;
+    
+}
+.about__img__container img {
+    width: 100%;
+    
+}
+.about__content {
+    flex-basis: 50%;
+}
+.about__content__container__p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/* about page ends here */
+
+/* sports page starts here */
+.sports__container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    margin: 0 auto;
+    gap: 1rem;
+}
+.sports__container img {
+    max-width: 100%;
+}
+.sport__title {
+    font-size: 2.5rem;
+    opacity: 0.3;
+}
+.sports__content {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.sport__container {
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(208, 203, 193);
+    box-shadow: 3px 3px 10px black;
+}
+/* sports page ends here */
+
+/* gallery starts here */
+.gallery__container {
+    max-width: 180rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    margin: 0 auto;
+    gap: 1rem;
+}
+.img img {
+    width: 100%;
+}
+/* gallery ends here */
+>>>>>>> 529b3c2b362855e0a156c75c60d6bdaedc8140aa
 
 
 
