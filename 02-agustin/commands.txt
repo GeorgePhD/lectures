@@ -1,0 +1,49 @@
+
+1. ctrl + shift + p = search into settings and more. 
+2. ctrl + , = takes you to settings
+3. ctrl + p = searches files
+4. ctrl + b = shows sidebar
+5. ctrl + d = multiple selectors
+6. ctrl + l = selects the line
+7. ctrl + c = copy
+8. ctrl + v = paste
+9. ctrl + x = cuts
+10. ctrl + z = undo things
+11. alt + shift + arrow down = copy and moves the line or lines down 1 space
+
+HTML SHORTCUTS
+h1 (or any number) + tab or enter = creates the tags
+this works for several = p,li,img,etc.
+ex : p*10 = creates 10 P tags.
+this works with multiple tags.
+
+TERMINAL COMMANDS
+1. cd = change directory
+2. cd .. = take you one folder back
+3. cd + path of the folder = take you to the folder you want
+
+BASH
+1. cd = change directory
+2. cd .. = take you one folder back
+3. cd + path of the folder = take you to the folder you want
+4. mkdir + nameOfTheFolder =  creates a folder
+5. touch + nameOfTheFolder =  creates a file
+
+GIT COMMANDS
+1. git add + fileName = adds the file to stage
+2. git add . = adds all the files
+3. git commit -m "here goes the message" = commits your files.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

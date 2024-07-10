@@ -1,0 +1,338 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("assets/img/bg3.jfif");
+
+
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 10px rgb(112, 111, 111);
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px rgb(221, 217, 217);
+    padding: 10px;
+    width: 60%;
+    background: black;
+    color: white;
+}
+
+a {
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 5%;
+    text-align: center;
+    background: black;
+    color: white;
+    box-shadow: 3px 3px 10px rgb(172, 168, 168);
+    text-decoration: none;
+    font-size: 20px;
+}
+.email {
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 7%;
+    text-align: center;
+    background: black;
+    color: white;
+    box-shadow: 3px 3px 10px rgb(172, 168, 168);
+    text-decoration: none;
+    font-size: 20px;
+}
+.intel-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(4, 39, 235);
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 20px rgb(93, 122, 239);
+
+}
+.intel-p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px rgb(105, 117, 245);;
+    padding: 10px;
+    width: 60%;
+    background: rgb(105, 117, 245);
+    color: white;
+}
+
+.email-intel {
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 7%;
+    text-align: center;
+    background: rgb(105, 117, 245);
+    color: white;
+    box-shadow: 3px 3px 10px rgb(105, 117, 245);
+    text-decoration: none;
+    font-size: 20px;
+}
+.a-intel {
+    
+        margin-left: 20%;
+        margin-top: 10px;
+        display: block;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 5%;
+        text-align: center;
+        background: rgb(105, 117, 245);
+        color: white;
+        box-shadow: 3px 3px 10px rgb(105, 117, 245);
+        text-decoration: none;
+        font-size: 20px;
+    
+}
+
+.nvidia-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(46, 243, 6);
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 20px rgb(46, 243, 6);
+}
+.nvidia-p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px rgb(46, 243, 6);
+    padding: 10px;
+    width: 60%;
+    background: rgb(46, 243, 6);
+    color: white;
+}
+
+.nvidia-email {
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 9%;
+    text-align: center;
+    background: rgb(46, 243, 6);
+    color: white;
+    box-shadow: 3px 3px 10px rgb(46, 243, 6);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nvidia-a {
+    
+        margin-left: 20%;
+        margin-top: 10px;
+        display: block;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 5%;
+        text-align: center;
+        background: rgb(46, 243, 6);
+        color: white;
+        box-shadow: 3px 3px 10px rgb(46, 243, 6);
+        text-decoration: none;
+        font-size: 20px;
+    
+}
+
+.ig-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(215, 115, 240);
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 20px rgb(215, 115, 240);
+}
+.ig-p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 30px rgb(215, 115, 240);
+    padding: 10px;
+    width: 60%;
+    background: rgb(204, 60, 240);
+    color: white;
+}
+
+.ig-email {
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 9%;
+    text-align: center;
+    background: rgb(215, 115, 240);
+    color: white;
+    box-shadow: 3px 3px 15px rgb(215, 115, 240);
+    text-decoration: none;
+    font-size: 20px;
+}
+.ig-a {
+    
+        margin-left: 20%;
+        margin-top: 10px;
+        display: block;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 5%;
+        text-align: center;
+        background: rgb(215, 115, 240);
+        color: white;
+        box-shadow: 3px 3px 15px rgb(215, 115, 240);
+        text-decoration: none;
+        font-size: 20px;
+    
+}
+
+.fb-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(31, 53, 223);
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 20px rgb(69, 88, 228);
+}
+.fb-p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 30px rgb(31, 53, 223);
+    padding: 10px;
+    width: 60%;
+    background: rgb(69, 88, 228);
+    color: white;
+}
+
+.fb-email {
+    margin-left: 20%;
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 9%;
+    text-align: center;
+    background: rgb(69, 88, 228);
+    color: white;
+    box-shadow: 3px 3px 15px rgb(31, 53, 223);
+    text-decoration: none;
+    font-size: 20px;
+}
+.fb-a {
+    
+        margin-left: 20%;
+        margin-top: 10px;
+        display: block;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 5%;
+        text-align: center;
+        background: rgb(69, 88, 228);
+        color: white;
+        box-shadow: 3px 3px 15px rgb(31, 53, 223);
+        text-decoration: none;
+        font-size: 20px;
+    
+}
+
+.xg-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(254, 254, 255);
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 20px rgb(255, 0, 0);
+}
+
+.xg-p {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px  rgb(241, 75, 75);
+    padding: 10px;
+    width: 60%;
+    background:  rgba(255, 0, 0, 0.708);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

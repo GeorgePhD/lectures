@@ -3,7 +3,10 @@
     padding-top: 0;
     font-size: 10px;
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
     font-family: 'Poppins', sans-serif;
+>>>>>>> 529b3c2b362855e0a156c75c60d6bdaedc8140aa
 }
 .li__item .active {
     color: black;
@@ -27,7 +30,10 @@
     text-decoration: none;
     font-size: 2.5rem;
     color: rgb(134, 133, 133);
+<<<<<<< HEAD
+=======
     font-weight: 700;
+>>>>>>> 529b3c2b362855e0a156c75c60d6bdaedc8140aa
     
 }
 .li__item a:hover {
@@ -46,6 +52,8 @@
     border: 1px solid rgb(189, 189, 189);
 }
 
+<<<<<<< HEAD
+=======
 /* about page starts here */
 .about__title {
     font-size: 2.5rem;
@@ -131,6 +139,7 @@
     width: 100%;
 }
 /* gallery ends here */
+>>>>>>> 529b3c2b362855e0a156c75c60d6bdaedc8140aa
 
 
 

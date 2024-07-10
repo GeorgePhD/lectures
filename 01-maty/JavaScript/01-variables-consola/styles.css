@@ -1,0 +1,22 @@
+body {
+    transition: all 800ms ease-in-out;
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
+    -ms-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    background-color: rgb(215, 244, 244);
+    color: blue;
+}
