@@ -1,0 +1,29 @@
+Title: Tables.
+
+
+<table>
+    <thead>
+      <tr> table row
+        <th>Name</th> table header
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ana</td> table data
+        <td>Math</td>
+        <td>95</td>
+      </tr>
+      <tr>
+        <td>Luis</td>
+        <td>Science</td>
+        <td>89</td>
+      </tr>
+      <tr>
+        <td>María</td>
+        <td>History</td>
+        <td>92</td>
+      </tr>
+    </tbody>
+  </table>
