@@ -1,0 +1,60 @@
+
+
+.menu {
+    background-color: rgb(0, 0, 0);
+}
+.menu__items {
+    display: flex;
+    gap: 1rem;
+    padding: 5px;
+}
+
+.item {
+    color: white;
+    list-style: none;
+}
+
+
+
+
+.cards__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+
+
+    padding-left: 1rem;
+    padding-top: 5px;
+}
+
+
+.card {
+    width: 250px;
+    margin-bottom: 0.7rem;
+}
+
+.card__img {
+    width: 100%;
+    border-radius: 0.2rem;
+    box-shadow: 1px 2px 10px rgb(198, 198, 198);
+}
+
+.card__title,
+.card__info {
+    margin: 0;
+}
+
+.card__title {
+    font-size: 1rem;
+}
+
+.card__info {
+    font-size: 0.6rem;
+}
+
+
+
+
+
+

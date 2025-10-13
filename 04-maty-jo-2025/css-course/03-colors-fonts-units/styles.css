@@ -1,0 +1,52 @@
+/* universal selector, usamos esto para darle un formato espcial y parejoj a todo el html */
+
+* {
+    font-size: 10px;
+}
+
+
+
+
+
+body {
+    background-color: #e9ecef;
+}
+
+h1 {
+    color: #495057;
+    font-size: 3.5rem;
+}
+p {
+    font-size: 1.6rem;
+}
+.p1 {
+    color: blue; /* color by name */
+}
+
+.p2 {
+    color: #00ff00; /* color by hex code */
+    /* Hex codes can be 3 or 6 characters, but generally they are 6 characters */
+}
+
+.p3 {
+    color: rgb(255, 0, 0); /* color by RGB */
+    /* RGB values can be percentages or numbers from 0 to 255 */
+}
+.font1 {
+    font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.font2 {
+    color: #495057;
+}
+.font3 {
+    color: #8619f3;
+}
