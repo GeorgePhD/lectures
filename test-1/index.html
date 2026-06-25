@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina | Fine Dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Lumina</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reservations" class="btn-primary">Reservations</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content hidden">
+            <p class="subtitle">A Culinary Journey</p>
+            <h1>Taste the Extraordinary</h1>
+            <p class="description">Experience modern gastronomy in an elegant atmosphere, where every dish tells a story of passion and flavor.</p>
+            <a href="#menu" class="btn-primary large">Explore Menu</a>
+        </div>
+    </header>
+
+    <section id="menu" class="menu-section">
+        <div class="section-header hidden">
+            <h2>Our Signature Dishes</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="menu-grid">
+            <div class="menu-card hidden cursor-pointer">
+                <div class="card-image">
+                    <img src="images/salmon.png" alt="Seared Salmon">
+                    <div class="overlay">
+                        <span>View Details</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Citrus Seared Salmon</h3>
+                    <p>Wild-caught salmon, tender asparagus, and a delicate lemon butter emulsion.</p>
+                    <span class="price">$38</span>
+                </div>
+            </div>
+
+            <div class="menu-card hidden cursor-pointer" style="transition-delay: 100ms;">
+                <div class="card-image">
+                    <img src="images/burger.png" alt="Gourmet Burger">
+                    <div class="overlay">
+                        <span>View Details</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>The Lumina Burger</h3>
+                    <p>Dry-aged wagyu blend, caramelized onions, aged gruyere, on an artisanal brioche.</p>
+                    <span class="price">$28</span>
+                </div>
+            </div>
+
+            <div class="menu-card hidden cursor-pointer" style="transition-delay: 200ms;">
+                <div class="card-image">
+                    <img src="images/pasta.png" alt="Truffle Pasta">
+                    <div class="overlay">
+                        <span>View Details</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Handmade Truffle Pasta</h3>
+                    <p>Silky ribbons of house-made pasta, aged parmesan, finished with fresh black truffle shavings.</p>
+                    <span class="price">$42</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservations" class="cta-section">
+        <div class="cta-content hidden">
+            <h2>Secure Your Table</h2>
+            <p>Join us for an unforgettable evening. Reservations are highly recommended.</p>
+            <button class="btn-primary large cta-btn">Book Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Lumina</div>
+            <p>&copy; 2026 Lumina Restaurant. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
