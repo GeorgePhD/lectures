@@ -1,0 +1,30 @@
+ctrl + l = limpia la terminal / borrar terminal = clear
+pwd= print work directory ("donde estas parado")
+ls= listar las directorios dentro del pwd
+
+cd = change directory (cambiar carpeta)
+cd .. = ir atras un nivel
+touch = crea un archivo
+rm (remove) = rm + nombre del archivo
+
+mkdir = make directory = mkdir +nombre de la carpeta
+rmdir = borra el directorio
+
+
+mv = cambia el nombre
+
+GIT
+
+git add +nombre del archivo = agrega el archivo a git para que conozca los cambios que vamos a hacer
+
+u = untracked o sea que git no sigue este archivo
+a = added
+m = modified / modificado
+
+
+git commit -m "mensaje del commit" = gvit guarda los cambios de tu archivo
+git log = nos muestra los commits
+modificando linea 27, agregando informacion 
+agregando linea 28 desde git bash
+[master 00a1813] ägregando linea 28 desde bash
+ 1 file changed, 3 insertions(+), 1 deletion(-)
