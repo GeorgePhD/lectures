@@ -1,0 +1,19 @@
+
+
+la forma más sencilla de linkear git con github es:
+
+1. crear un repositorio en github
+2. clonar ese repositorio vacío
+3. crear los archivos y luego pushearlos a github.
+
+
+
+
+
+
+
+
+
+
+
+
